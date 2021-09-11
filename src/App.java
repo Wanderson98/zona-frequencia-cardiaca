@@ -49,8 +49,9 @@ public class App {
 
         System.out.print("Digite qualquer número para continuar ou 1 para sair: ");
         cod = ler.nextInt();
+        
     }while(cod != 1);
-    
+
         ler.close();
     }
 }
